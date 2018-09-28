@@ -1,0 +1,41 @@
+{
+    "prefix": "!",
+    "channel_ID": "484061060760993822",
+    "uncomfortable": [
+      "That makes me uncomfortable :slight_frown:",
+      "I don't feel so good :slight_frown:"],
+   "Sentence" : [
+      "Hey there userID, that makes me uncomfortable. :slight_frown:",
+      "Please stop being a weeb and just say what :slight_frown:"],
+     "TSsen": [
+      "Best Pop Star of all time!",
+       "Best Pop Star of all time!",
+       "Sym is best hero, until I decide I no longer like her",
+      "Give me an off meta hero, I'll show you how to play them ","Taylor Swift is hotter than you","Cause the players gonna play, play, play, play, play","The haters gonna hate, hate, hate, hate, hate", "Thats it Max, Timeout." ],
+    "BallAnswers": [
+    "It is certain."
+  , "It is decidedly so."
+  , "Without a doubt."
+  ,"yes - definitely."
+  , "You may rely on it."
+  , "As I see it, yes."
+  , "Most likely."
+  , "Outlook good."
+  , "Yes."
+  , "Signs point to yes."
+  , "Reply hazy, try again"
+  , "Ask again later."
+  , "Better not tell you now."
+  , "Cannot predict now."
+  , "Concentrate and ask again."
+  , "Don't count on it."
+  , "My reply is no."
+  , "My sources say no."
+  , "Outlook not so good."
+  ," Very doubtful."],
+     "Admin" : [
+      "Ice#5958",
+      "CyberNinja#8297",
+      "TaylorSwift#5815"]
+    
+  }
