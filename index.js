@@ -59,6 +59,7 @@ client.on("message", message =>
     }
     catch (err)
     {
+        console.log("someone was an idiot");
         console.error(err);
     }
 

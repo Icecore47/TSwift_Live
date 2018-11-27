@@ -8,6 +8,9 @@ module.exports.run = async (client, message, args) => {
             "\n\t`!endorse <YOUR BATTLE TAG>` - This shows your endorsement level"+
             "\n\t`!teams`- Lists Teams on Server"+
             "\n\t`!serverinfo`- If you Dont know what this mean... We cant help you"+
+            "\n\t`!myinfo`- This Command will ONLY work for you if ICE has your upto date battle tag"+
+            "\n\t`!8ball`- Answers all Lifes Question"+
+            "\n\t`!map`- Followed by Assault,Hybrid,Control or Escort"+
             "\n\t`And whatever else Ice and Cyber can be bothered adding in the future`"
       
        client.channels.get("477189452544999435").send(output);

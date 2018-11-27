@@ -7,9 +7,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.16.3",
     "discord.js": "^11.4.2",
-    "overwatch-api": "^0.6.2"
+    "express": "^4.16.3",
+    "overwatch-api": "^0.6.2",
+    "request": "^2.88.0"
   },
   "engines": {
     "node": "9.x"

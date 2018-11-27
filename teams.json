@@ -2,19 +2,27 @@
     "Teams": [
         {
             "Name": "Swifties",
-            "Rank": "Diamond"
+            "Rank": "Diamond/Masters"
+        },
+        {
+            "Name": "Swifties- In Taylors Imagination",
+            "Rank": "GM"
         },
         {
             "Name": "Ebony-Ash",
-            "Rank": "Diamond"
+            "Rank": "Diamond/Masters"
         },
         {
-            "Name": "The-Weebs ",
-            "Rank": "Gold"
+            "Name": "The Boomers ",
+            "Rank": "Gold-Plat"
         },
         {
-            "Name": "Akuma OW ",
-            "Rank": "Masters"
+            "Name": "The Zoomers ",
+            "Rank": "Too Young to know what rank is"
+        },
+        {
+            "Name": "The Boomers ",
+            "Rank": "That Old they have forgoten what rank is"
         },
         {
             "Name": "Squad^3",
@@ -26,15 +34,15 @@
         },
         {
             "Name": "Knight Owls",
+            "Rank": "Diamond/Masters"
+        },
+        {
+            "Name": "Ice",
+            "Rank": "A Rank Unto Himself"
+        },
+        {
+            "Name": "Psychic Renegade",
             "Rank": "Diamond"
-        },
-        {
-            "Name": "KingsMen",
-            "Rank": "MIA"
-        },
-        {
-            "Name": "Mizu",
-            "Rank": "MIA"
         },
               {
             "Name": "Junkeroos",

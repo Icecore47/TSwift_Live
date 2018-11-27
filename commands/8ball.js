@@ -17,6 +17,7 @@ module.exports.run = async (client, message, args) => {
         .addField("🎱Answer🎱 ", constants.BallAnswers[Math.floor((Math.random() * constants.BallAnswers.length))])
 
 
+
     if (admin==true)
     { message.channel.send.send(serverembed);}
     else
