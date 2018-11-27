@@ -7,7 +7,6 @@ const region = 'global';
 const constants = require("../constants.json");
 function getB_Tag(message) {
 
-
     for (var x = 0; x < players.Players.length + 0; x++) {
 
         var name = players.Players[x].Discord_Name;
@@ -20,9 +19,7 @@ function getB_Tag(message) {
         }
     }
 }
-
 module.exports.run = async (bot, message, args) => {
-     var serverembed;
 
     var user;
     var endr;
@@ -30,17 +27,12 @@ module.exports.run = async (bot, message, args) => {
     const Battle_Tag = await getB_Tag(message);
     console.log(Battle_Tag);
     user = Battle_Tag.replace("#", "-");
-
-
     if (user != "No Battle Tag Found") {
-
         try {
             OW.getProfile(platform, region, user, (err, json) => {
-
                 if (err) {
-                    return "NA";
+                    console.log(err)
                 } else {
-
                     endr = "endorsement level is " + json.endorsement.level + ":\n" +
                         json.endorsement.sportsmanship.rate + " sportsmanships, " + json.endorsement.teammate.rate +
                         " teammates, and " + json.endorsement.shotcaller.rate + " shotcallers"
@@ -48,7 +40,7 @@ module.exports.run = async (bot, message, args) => {
                     var Level = json.level;
                     let sicon = message.author.avatarURL;
                     console.log(3);
-                     serverembed = new Discord.RichEmbed()
+                    let serverembed = new Discord.RichEmbed()
                         .setDescription("Your Info")
                         .setColor("#15f153")
                         .setThumbnail(sicon)
@@ -60,28 +52,17 @@ module.exports.run = async (bot, message, args) => {
                         .addField("Server Name", message.guild.name)
                         .addField("You Joined", message.member.joinedAt)
 
+                    message.client.channels.get("477189452544999435").send(serverembed);
                 }
-
             });
         }
-        catch (Exception) {
-            console.log("API gone and fcked up");
-        }
-        message.client.channels.get("477189452544999435").send(serverembed);
-
-
+        catch (exception) { console.log("Something fcked up") }
 
 
     } else {
         message.channel.send("Battle Tag Not found Please Contact Ice");
     }
-
-
-
-
 }
-
-
 module.exports.help = {
     name: "Join"
-}
+} 
